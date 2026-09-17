@@ -1,15 +1,20 @@
 This is a Computer Algebra System that support numeric evaluation, symbolic simplication, and more.
 
 How to run the program: 
-In powershell, create a venv
+In powershell, create a venv, 
 then simply do:
 .\.venv\Scripts\python.exe build.py
 
 Some cool examples to try:
+
 .\.venv\Scripts\python.exe main.py 'x+2*3' --mode simplify
+
 .\.venv\Scripts\python.exe main.py 'x*x+sin(x)' --mode differentiate --json
+
 .\.venv\Scripts\python.exe main.py 'x*x+sin(x)' --mode autodiff --set x=2
+
 .\.venv\Scripts\python.exe main.py 'x*y' --mode differentiate --variable y
+
 
 
 Modes:
