@@ -1,9 +1,16 @@
 This is a Computer Algebra System that support numeric evaluation, symbolic simplication, and more.
 
 How to run the program: 
-In powershell, create a venv, 
-then simply do:
+
+Create a virtual environment if you do not already have one, then build the engine:
+
+```powershell
+
+python -m venv .venv
+
 .\.venv\Scripts\python.exe build.py
+
+
 
 Some cool examples to try:
 
