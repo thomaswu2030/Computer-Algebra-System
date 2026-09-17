@@ -1,0 +1,25 @@
+# Ignore everything unless it is essential source code listed below.
+*
+!/.gitignore
+!/main.py
+!/build.py
+
+# Core implementation
+!/Compiler/
+!/Compiler/*.py
+!/Structures/
+!/Structures/*.py
+!/Structures/*.hpp
+!/Symbolic Engine/
+!/Symbolic Engine/*.cpp
+!/Symbolic Engine/*.hpp
+
+# Integration tests
+!/tests/
+!/tests/test_engine.py
+
+# Required bridge between the Python parser and C++ engine
+!/Tools/
+!/Tools/serialization/
+!/Tools/serialization/encoder.py
+!/Tools/serialization/decoder.cpp
