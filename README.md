@@ -4,8 +4,6 @@ How to run the program:
 
 Create a virtual environment if you do not already have one, then build the engine:
 
-```powershell
-
 python -m venv .venv
 
 .\.venv\Scripts\python.exe build.py
