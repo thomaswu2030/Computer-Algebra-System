@@ -1,6 +1,6 @@
 # encode python structure to JSON text file.
 import json
-from CAS.Structures import asts
+from Structures import asts
 
 def to_data(node):
     if isinstance(node, asts.Literal):

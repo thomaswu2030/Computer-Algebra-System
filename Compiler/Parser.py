@@ -2,8 +2,8 @@
 # "Crafting Interpreters" by Robert Nystrom
 
 import math
-from CAS.Structures.token_types import TokenType
-import CAS.Structures.asts as asts
+from Structures.token_types import TokenType
+import Structures.asts as asts
 
 class ParserError(Exception):
     pass

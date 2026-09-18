@@ -4,8 +4,8 @@ import random
 import sys
 import subprocess
 import unittest
-sys.path.insert(0,str(Path(__file__).resolve().parents[2]))
-from CAS.main import parse_expression, run_engine
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from main import parse_expression, run_engine
 
 class EngineTests(unittest.TestCase):
     def test_command_line_preserves_power(self):

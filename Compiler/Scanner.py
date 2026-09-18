@@ -1,7 +1,7 @@
 # This is a scanner that scans the input as tokens. Tokentypes are in the Structures folder
 # The structure is learned and adapted from "Crafting Interpreters" by Robert Nystrom
 
-from  CAS.Structures.token_types import TokenType, Token
+from Structures.token_types import TokenType, Token
 
 class Scanner:
     def __init__(self, source):

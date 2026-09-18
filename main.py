@@ -8,10 +8,10 @@ import sys
 
 ROOT=Path(__file__).resolve().parent
 if __package__ in (None,''):
-    sys.path.insert(0,str(ROOT.parent))
-from CAS.Compiler.Scanner import Scanner
-from CAS.Compiler.Parser import Parser
-from CAS.Tools.serialization.encoder import to_data
+    sys.path.insert(0,str(ROOT))
+from Compiler.Scanner import Scanner
+from Compiler.Parser import Parser
+from Tools.serialization.encoder import to_data
 
 def parse_expression(source):
     # scan text into tokens, parse their precedence, then serialize the tree.
